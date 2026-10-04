@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <style>
+        header{
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .word-one {color: rgb(3, 3, 93);}
+        .word-two {color: rgb(59, 203, 255);}
+        header p{
+            margin-top: -4px;
+        }
+        nav a{
+            
+            font-weight: 400;
+            text-decoration: none;
+            padding: 5px 10px;
+            border-radius: 4px;
+            transition: all 0.2s ease;
+        }
+        nav a:hover{
+            color: blue;
+        }
+        .banner{
+            background-image:url("Blog-banner-image-1.jpg") ;
+            background-repeat: no-repeat;
+            background-size: cover;             
+            padding: 80px 40px;
+        }
+        .banner-text h1{
+            font-size: 40px;
+            margin-bottom: 10px;
+        }
+        .banner-text p{
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+        .features{
+            display: flex;             
+            margin: 0 auto;            
+            padding: 40px 20px;
+        }
+        .A{
+            display: flex;
+        }
+        .box-box1{ 
+            flex: 1;
+        }
+
+        .box-box1 h3 {
+            font-size: 40px;
+            color: #0b3c5d;
+            position: relative;
+            margin-bottom: 10px;
+        }
+
+        .box-box1 p {
+            font-size: 25px;
+            color: #555555;
+            text-align:left;
+        }
+        .box-box2{
+            flex: 1;
+        }
+        .box-box2 img {
+            width: 600px;
+            height: 300px;
+            border-radius: 6px
+        }
+        .B{
+            display: flex;
+        }
+        .MV{
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            padding: 50px 5%;
+            background-color: #A2DB98;
+            width: 50%;
+        }
+        .MB{
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            padding: 50px 5%;
+            background-color: #A9DCF4;
+            width: 50%;
+        }
+        .icon{
+            width: 75px;
+            height: 75px;
+            border-radius: 50%;
+            margin: 0 auto 15px auto; /* Centers horizontally */
+            display: flex;             /* Centering logo inside container technique */
+            justify-content: center;   /* Horizontal align */
+            align-items: center;       /* Vertical align */
+            background-color: #1c8000;
+            color:#1e8000
+            font-size: 28px;
+        }
+        .BB{
+            flex: 1;
+            min-width: 220px;
+            max-width: 260px;
+            text-align: center;
+            padding: 10px;
+        }
+        .BB-box1 h3 {
+            font-size: 30px;
+            font-weight: 700;
+            color: #333333;
+            margin-bottom: 8px;
+        }
+        .BB-box2 h3 {
+            font-size: 30px;
+            font-weight: 700;
+            color: #333333;
+            margin-bottom: 8px;
+        }
+        .BB-box1 p {
+            font-size: 20px;
+            color: #666666;
+        }
+        .BB-box2 p {
+            font-size: 20px;
+            color: #666666;
+        }
+        footer{
+            background-color: blue;
+            color: bisque;
+            text-align: center;
+            padding: 18px;
+            font-size: 16px;
+            justify-content: space-between;
+            display: flex;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>
+                <span class="word-one">Edu<span class="word-two">Learn</span></span>
+            </h1>
+            <p>Learn Today,Lead Tomorrow</p>
+        </div>
+                <nav>
+            <a href="C:\Users\LENOVO\Desktop\Assignment\Assignment 5 Q3\index.html">Home</a>
+            <a href="C:\Users\LENOVO\Desktop\Assignment\Assignment 5 Q3\AboutUs.html">About Us</a>
+            <a href="C:\Users\LENOVO\Desktop\Assignment\Assignment 5 Q3\OurServices.html">Services</a>
+            <a href="C:\Users\LENOVO\Desktop\Assignment\Assignment 5 Q3\OurGallery.html">Gallery</a>
+            <a href="C:\Users\LENOVO\Desktop\Assignment\Assignment 5 Q3\ContactUs.html">Contact Us</a>
+        </nav>
+    </header>
+    <section class= "banner">
+        <div class= "banner-text">
+            <h1>About US</h1>
+            <p>Home &nbsp;&gt;&nbsp; About Us</p>
+        </div>
+    </section>
+ <div class="A">
+    <section class="features">
+        <div class="box-box1">
+            <h3>Our Story</h3>
+            <p>EduLearn was founded with a simple goal &mdash; to make quality education accessible to everyone. We believe in the power of knowledge to transform lives and create a better tomorrow.</p>
+        </div>
+    </section>
+    <section class="features">
+        <div class="box-box2">
+        <img src="C:\Users\LENOVO\Desktop\Assignment\Assignment 5 Q3\images.jpeg" >
+        </div>
+    </section>
+</div>
+    <div class="B">
+    <section class="MV">
+        <div class="BB-box1">
+        <div class="icon"><img src="C:\Users\LENOVO\Desktop\Assignment\Assignment 5 Q3\image_4df642c8.jpg" width="100" height="100"></div>
+        <h3>Our Mission</h3>
+        <p>To provide accessible, high-quality education and resources to help leaners achieve their goals</p>
+        </div>
+    </section>
+    <section class="MB">
+        <div class="BB-box2">
+        <div class="icon"><img src="C:\Users\LENOVO\Desktop\Assignment\Assignment 5 Q3\image_ee012420.jpg" width="100" height="100"></div>
+        <h3>Our Vision</h3>
+        <p>To be a global learning platform empowering individuals to create a bright and smarter future</p>
+        </div>
+    </section>
+    </div>
+    <footer>
+        <p>&copy; 2025 EduLearn.All Rights reserved</p>
+      <p><img src="C:\Users\LENOVO\Desktop\Assignment\Assignment 5 Q3\facebook-logo-social-media-computer-icons-icon-facebook-drawing.jpg" width="20" height="20">
+        <img src="C:\Users\LENOVO\Desktop\Assignment\Assignment 5 Q3\outline-twitter-latest-logo-transparent-13.png" width="20" height="20">
+        <img src="C:\Users\LENOVO\Desktop\Assignment\Assignment 5 Q3\images (1).png" width="20" height="20">
+        <img src="C:\Users\LENOVO\Desktop\Assignment\Assignment 5 Q3\images (2).png" width="20" height="20">
+        </p>
+    </footer>
+</body>
+</html>
